@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Restricted Launcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description">Automatically runs an app for a restricted user.</string>
+    <string name="autorun_package">Autorun package:</string>
+    <string name="status">Status:</string>
+    <string name="title_activity_configuration">Configure Restricted Launcher</string>
+    <string name="package_to_run">Select package to run:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="enabled">enabled</string>
+    <string name="disabled">disabled</string>
+    <string name="please_select">Touch for list</string>
+    <string name="misconfigured_system">Misconfigured system - Restricted Launcher is for restricted users only. Please correct.</string>
+    <string name="version">Version 2.3</string>
+    <string name="copyright">Copyright © 2013 - 2014 by blueVerdi</string>
+    <string name="allrights">All rights reserved.</string>
+    <string name="close">Close</string>
+    <string name="about">About</string>
+    <string name="created">Created by Bradley Justice</string>
+    <string name="for_support">For support email support@blueverdi.com</string>
+    <string name="about_restricted_launcher">About Restricted Launcher</string>
+    <string name="help">Help</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="selected">selected.</string>
+    <string name="title_activity_help">Help</string>
+    <string name="to_use">To use:</string>
+    <string name="create_profile">1. Add a restricted profile.</string>
+    <string name="turn_on_app">2. Set the app you wish to run automatically to \"On\"</string>
+    <string name="turn_on_launcher">3. Set Restricted Launcher \"On\"</string>
+    <string name="launcher_settings">4. Tap the settings icon next to Restricted Launcher.</string>
+    <string name="select_app">5. Select the app turned on in step 2 from the drop-down list.</string>
+    <string name="tap_back">6. Tap the \"back\" button. You should see your new profile as \"Not set up\"</string>
+    <string name="tap_profile">7. Tap on the profile. Answer \"OK\" to \"Set up profile now?\".</string>
+    <string name="log_in">8. Swipe the screen to log in as the new user.</string>
+    <string name="select_launcher">9. Select Restricted Launcher as your Home screen. Tap \"Always\".</string>
+    <string name="note_that">Note that Restricted Launcher is for restricted profiles only. Do not select it for the primary user (owner).</string>
+    <string name="please_wait">Please wait.</string>
+    <string name="searching_apps">Searching for installed apps.</string>
+    <string name="for_v_and_v">For Vers &#038; Veilig B.V. use only.</string>
+
+</resources>

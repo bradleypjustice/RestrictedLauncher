@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blueverdi.restrictedlauncher"
+    android:versionCode="5"
+    android:versionName="2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.blueverdi.restrictedlauncher.RestrictedLauncher"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blueverdi.restrictedlauncher.ConfigurationActivity"
+            android:exported="true"
+            android:label="@string/title_activity_configuration" >
+        </activity>
+        <activity
+            android:name="com.blueverdi.restrictedlauncher.AboutActivity"
+            android:label="@string/about_restricted_launcher" >
+        </activity>
+
+        <receiver android:name="com.blueverdi.restrictedlauncher.GetRestrictionsReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_RESTRICTION_ENTRIES" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.blueverdi.restrictedlauncher.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+    </application>
+
+</manifest>
